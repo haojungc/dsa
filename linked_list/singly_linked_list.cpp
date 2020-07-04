@@ -1,10 +1,8 @@
 #include <iostream>
-#include <string>
 
 using std::cin;
 using std::cout;
 using std::endl;
-using std::string;
 
 typedef struct node {
     int value;
@@ -225,7 +223,7 @@ int main() {
     }
 
     // Selection Sort
-    sll.sort();
+    sll.selection_sort();
     sll.print();
 
     // Reverse
