@@ -108,7 +108,7 @@ private:
 int main() {
     Heap heap;
 
-    heap.set_values(); // Ends with -1
+    heap.set_values(); // Input ends with -1
 
     // Builds a max heap
     heap.build_max_heap();
